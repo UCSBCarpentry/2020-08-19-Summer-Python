@@ -65,6 +65,9 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
+
+<h3> Regular Registration is full, join the waitlist!</h3> 
+We often have some space to admit waitlisted learners so please join the waitlist if you would like a chance to attend.
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
