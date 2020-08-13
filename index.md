@@ -66,7 +66,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 
-<h3> Registration and Waitlist are both full, please join us next time!</h3> 
+<h3> Registration is full, please join the waitlist or next workshop!</h3> 
 
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
