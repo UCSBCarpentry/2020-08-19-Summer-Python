@@ -359,10 +359,11 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need to [download the example data we will be using for this workshop here](https://drive.google.com/file/d/10QTs9hDFavBSbTG_6Ivx7HQ3uRILtE19/view?usp=sharing). We suggest you unzip the link to your Desktop for easy access. 
+  
 </p>
 
-  ### Python and Jupyter Notebooks
+## Python and Jupyter Notebooks
 
 * [Python](http://python.org) is a popular language for
 scientific computing, and great for general-purpose programming as
