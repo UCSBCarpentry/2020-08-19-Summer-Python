@@ -371,10 +371,7 @@ scientific computing, and great for general-purpose programming as
 well. For this workshop we use Python version 3.x.
 Installing all of its scientific packages individually can be
 a bit difficult, so we recommend an all-in-one installer.
-We will use Anaconda or Miniconda.
-They both use [Conda](http://conda.pydata.org/docs/), the main difference is
-that Anaconda comes with a lot of packages pre-installed.
-With Miniconda you will need to install the required packages.
+We will use Anaconda which (unsuprisingly) uses [Conda](http://conda.pydata.org/docs/). Anaconda comes with a lot of packages pre-installed, so
 We recommend using the Anaconda installation instructions.
 
 > ## Anaconda installation
@@ -387,6 +384,8 @@ We recommend using the Anaconda installation instructions.
 > ~~~
 > conda install -c conda-forge plotnine
 > ~~~
+> Installing this package takes some time so it would be prudent to install plotnine before the workshop
+>
 > {: .language-bash}
 {: .solution}
 
