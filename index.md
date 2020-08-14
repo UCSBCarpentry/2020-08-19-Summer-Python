@@ -9,7 +9,7 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "Wednesdays and Thursdays: August 19, 20, 26, and 27, and September 2 and 3"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Wednesdays and Thursdays: August 19, 20, 26, and 27, and September 2"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 12:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-08-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-09-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -360,6 +360,70 @@ please preview your site before committing, and make sure to run
   workshop,
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  ### Python and Jupyter Notebooks
+
+* [Python](http://python.org) is a popular language for
+scientific computing, and great for general-purpose programming as
+well. For this workshop we use Python version 3.x.
+Installing all of its scientific packages individually can be
+a bit difficult, so we recommend an all-in-one installer.
+We will use Anaconda or Miniconda.
+They both use [Conda](http://conda.pydata.org/docs/), the main difference is
+that Anaconda comes with a lot of packages pre-installed.
+With Miniconda you will need to install the required packages.
+We recommend using the Anaconda installation instructions.
+
+> ## Anaconda installation
+>
+> Download and install [Anaconda](https://www.anaconda.com/distribution/#download-section).
+> Remember to choose the installer for Python 3.x.
+> Anaconda does not include the plotting package plotnine.  To install this package, open your terminal application and
+> type:
+>
+> ~~~
+> conda install -c conda-forge plotnine
+> ~~~
+> {: .language-bash}
+{: .solution}
+
+> ## Miniconda installation
+>
+> Miniconda is a "light" version of Anaconda. If you install and use Miniconda
+> you will also need to install the workshop packages.
+>
+> Download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+> following the instructions. Remember to choose the installer for
+> Python 3.x.
+>
+> From your terminal application, type:
+> ~~~
+> conda list
+> ~~~
+> {: .language-bash}
+>
+> To install the packages we'll be using in the workshop, type:
+> ~~~
+> conda install -y numpy pandas matplotlib jupyter
+> conda install -c conda-forge plotnine
+> ~~~
+> {: .language-bash}
+{: .solution}
+
+After installing either Anaconda or Miniconda and the workshop packages,
+launch a Jupyter notebook by typing this command from the terminal:
+
+~~~
+jupyter notebook
+~~~
+{: .language-bash}
+
+The notebook should open automatically in your browser. If it does not or you
+wish to use a different browser, open this link: <http://localhost:8888>.
+
+For a brief introduction to Jupyter Notebooks, please consult our
+[Introduction to Jupyter Notebooks](https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/) page.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
