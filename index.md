@@ -390,30 +390,8 @@ We recommend using the Anaconda installation instructions.
 > {: .language-bash}
 {: .solution}
 
-> ## Miniconda installation
->
-> Miniconda is a "light" version of Anaconda. If you install and use Miniconda
-> you will also need to install the workshop packages.
->
-> Download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
-> following the instructions. Remember to choose the installer for
-> Python 3.x.
->
-> From your terminal application, type:
-> ~~~
-> conda list
-> ~~~
-> {: .language-bash}
->
-> To install the packages we'll be using in the workshop, type:
-> ~~~
-> conda install -y numpy pandas matplotlib jupyter
-> conda install -c conda-forge plotnine
-> ~~~
-> {: .language-bash}
-{: .solution}
 
-After installing either Anaconda or Miniconda and the workshop packages,
+After installing Anaconda and the workshop packages,
 launch a Jupyter notebook by typing this command from the terminal:
 
 ~~~
