@@ -361,7 +361,7 @@ please preview your site before committing, and make sure to run
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
-<p>
+
   ### Python and Jupyter Notebooks
 
 * [Python](http://python.org) is a popular language for
@@ -424,7 +424,7 @@ wish to use a different browser, open this link: <http://localhost:8888>.
 
 For a brief introduction to Jupyter Notebooks, please consult our
 [Introduction to Jupyter Notebooks](https://datacarpentry.org/python-ecology-lesson/jupyter_notebooks/) page.
-</p>
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
