@@ -57,6 +57,7 @@ In Python variables are created when you first assign values to them.
 ~~~
 a = 2
 b = 3.142
+s = "Hello World"
 ~~~
 {: .language-python}
 
@@ -67,7 +68,6 @@ If you want to know the type of a variable you can use the built-in `type()` fun
 ~~~
 print(type(a))
 print(type(b))
-s = "Hello World"
 print(type(s))
 ~~~
 {: .language-python}
