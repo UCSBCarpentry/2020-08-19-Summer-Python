@@ -133,6 +133,7 @@ Arithmetic expressions can be arbitrarily complex, but remember people have to r
 >
 > 2. Now remove all but the first line (with the 4 items in it) and run the cell again. How does this output differ from when we used the print function?
 >
+> ### More Practice
 > 3. Practice assigning values to variables using as many different operators as you can think of.
 >
 > 4. Create some expressions to be evaluated using parentheses to enforce the order of mathematical operations that you require
@@ -543,8 +544,11 @@ print(type(list4))
 > Using the number list defined above, complete the code below and display the values of `odd_from_list` and `last_num_in_list` to check your work.
 >
 > ~~~
-> is_odd = [False, ___]
+> 1. Fill in the blank
+> is_odd = [False, ___, ___, ___]
+> 2. Next use is_odd we generated in #1 to pick out odd numbers from list
 > odd_from_list =
+> 3. (Challenge) find the last number in the list
 > last_num_in_list =
 >
 > ~~~
